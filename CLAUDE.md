@@ -23,13 +23,13 @@ export default async function main(args) { ... }
 
 ## Files Overview
 
-| File | Purpose | External API |
-|---|---|---|
-| `cal_slots.js` | Fetches available calendar slots | Cal.com v2 API |
-| `pinecone.js` | Chat completions via Pinecone Assistant | Pinecone Assistant API |
-| `get_current_time.js` | Returns formatted current date/time in a given timezone | None (Intl API) |
-| `custom_memory.js` | Appends user/assistant turns to a rolling text memory string | None |
-| `send-data-to-make.js` | POSTs user data to a Make.com webhook | Make.com webhook |
+| File                   | Purpose                                                      | External API           |
+| ---------------------- | ------------------------------------------------------------ | ---------------------- |
+| `cal_slots.js`         | Fetches available calendar slots                             | Cal.com v2 API         |
+| `pinecone.js`          | Chat completions via Pinecone Assistant                      | Pinecone Assistant API |
+| `get_current_time.js`  | Returns formatted current date/time in a given timezone      | None (Intl API)        |
+| `custom_memory.js`     | Appends user/assistant turns to a rolling text memory string | None                   |
+| `send-data-to-make.js` | POSTs user data to a Make.com webhook                        | Make.com webhook       |
 
 ## Conventions
 
